@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h2>Patients Registration Form</h2>
+    <form id="patientForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="dateofbirth">Date of Birth:</label>
+        <input type="text" id="dateofbirth" name="dateofbirth" required>
+
+        <label for="idnumber">Id Number:</label>
+        <input type="text" id="idnumber" name="idnumber" required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="county">County:</label>
+        <input type="text" id="county" name="county" required>
+
+        <label for="subcounty">Sub County:</label>
+        <input type="text" id="subcounty" name="subcounty" required><br><br>
+
+        <label for="telephone">Telephone:</label>
+        <input type="text" id="telephone" name="telephone" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" required>
+
+        <label for="subcounty">Sub County:</label>
+        <input type="text" id="subcounty" name="subcounty" required><br><br>
+
+        <label for="maritalstatus">Marital Status:</label>
+        <input type="text" id="maritalstatus" name="maritalstatus" required><br><br>
+
+        <button type="button" onclick="savePatientDetails()">Save Patient</button>
+    </form>
+    <h2>Next Of Kin Form</h2>
+    <form id="nextOfKinForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="dateofbirth">Date of Birth:</label>
+        <input type="text" id="dateofbirth" name="dateofbirth" required>
+
+        <label for="idnumber">Id Number:</label>
+        <input type="text" id="idnumber" name="idnumber" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" required>
+
+        <label for="relationship">Relationship:</label>:</label>
+        <input type="text" id="relationship" name="relationship" required><br><br>
+
+        <label for="telephone">Telephone:</label>
+        <input type="text" id="telephone" name="telephone" required><br><br>
+
+    
+
+        <button type="button" onclick="saveNextOfKinDetails()">Save Next of Kin</button>
+    </form>
+</body>
+</html>
